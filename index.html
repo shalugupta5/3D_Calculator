@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>Document</title>
+
+    <style>
+      /* CSS for operator buttons hover effect */
+      .operator:hover {
+          background-color: #FF4081;
+          color: white;
+      }
+  </style>
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" class="display" readonly>
+    <div class="buttons">
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button style="background-color: #F44336;" class="operator">/</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button style="background-color: #F44336;" class="operator">x</button>
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button style="background-color: #F44336;" class="operator">-</button>
+      <button id="clear">C</button>
+      <button>0</button>
+      <button  class="operator">.</button>
+      <button style="background-color: #F44336;" class="operator">+</button>
+    </div>
+    <div class="eq" style="margin-top: 5%;">
+      <button id="equal" class="equal-button">=</button>
+    </div>
+  </div>
+  <script src="JavaScript/index.js"></script>
+</body>
+</html>
